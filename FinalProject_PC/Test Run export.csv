@@ -1,0 +1,199 @@
+case_id,title,suite,suite_id,assignee,time_spent_ms,status,finish_time,steps,steps_input_data,steps_expected_result,steps_status,comment,priority,severity,automation,type,tags,step_comments,case_parameter
+1,"Empty text field","Assign Leave",4,"Mukhamad Sholikhin Tofa",10000,Passed,"2022-07-31 09:38:38","1. Press assign button
+","1. 
+","1. 
+","1. Passed
+",,High,Major,Automated,Functional,,"1. ",
+2,"Fill all text field","Assign Leave",4,"Mukhamad Sholikhin Tofa",10000,Passed,"2022-07-31 09:38:50","1. Fill employee name
+2. Fill employee name
+3. Fill from date
+4. Fill to date
+","1. Orange Test
+2. CAN - Bereavement
+3. 2022-07-29
+4. 2022-07-29
+","1. 
+2. 
+3. 
+4. 
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,High,Major,Automated,Functional,,"1. 
+2. 
+3. 
+4. ",
+11,"Search User","User Management",21,"Mukhamad Sholikhin Tofa",7000,Passed,"2022-07-31 09:38:58","1. Input username
+2. Set User Role
+3. Input employee name
+4. Set status
+","1. Cecil..Bonaparte
+2. All
+3. Cecil Bonaparte
+4. All
+","1. 
+2. 
+3. 
+4. 
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. 
+3. 
+4. ",
+3,"Search employee information","Employee List",6,"Mukhamad Sholikhin Tofa",13000,Passed,"2022-07-31 09:39:13","1. Input employee name
+2. Input employee ID
+3. Select employment status
+4. Select Include
+5. Input supervisor name
+6. Select job title
+7. Select sub unit
+8. Press search button
+","1. Cecil Bonaparte
+2. 0204
+3. All
+4. Current employees only
+5. Fiona Grace
+6. All
+7. All
+8. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. Passed
+2. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,Medium,Normal,"To be automated",Functional,,"1. 
+2. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+4,"Search employee reports",Reports,7,"Mukhamad Sholikhin Tofa",4000,Passed,"2022-07-31 09:39:18","1. Input report name
+2. Press search button
+","1. PIM Sample Report
+2. 
+","1. 
+2. 
+","1. Passed
+2. Passed
+",,Medium,Normal,Automated,Functional,,"1. 
+2. ",
+5,"Search leave list","Leave List",9,"Mukhamad Sholikhin Tofa",13000,Passed,"2022-07-31 09:39:32","1. Input from date
+2. Input to date
+3. Input show leave with status
+4. Input employee
+5. Input sub unit
+6. Input include past employees
+7. Press search button
+","1. 2021-12-13
+2. 2021-12-23
+3. All
+4. Orange Test
+5. All
+6. (unchecked)
+7. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. ",
+6,"Select Employee",Timesheets,11,"Mukhamad Sholikhin Tofa",5000,Passed,"2022-07-31 09:39:38","1. Input employee name
+2. Press view button
+","1. Cecil Bonaparte
+2. 
+","1. 
+2. 
+","1. Passed
+2. Passed
+",,Medium,Normal,"To be automated",Functional,,"1. 
+2. ",
+7,"Search Candidates",Candidates,13,"Mukhamad Sholikhin Tofa",14000,Passed,"2022-07-31 09:39:52","1. Select job title
+2. Select vacancy
+3. Select hiring manager
+4. Select status
+5. Input candidate name
+6. Input date of application from
+7. Select method of application
+8. Press search button
+","1. All
+2. All
+3. All
+4. All
+5. Muhammaed Nabeel
+6. 2020-10-08
+7. All
+8. 
+","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+","1. Passed
+2. Passed
+3. Passed
+4. Passed
+5. Passed
+6. Passed
+7. Passed
+8. Passed
+",,High,Normal,"To be automated",Functional,,"1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. ",
+8,"Search KPI",KPI,18,"Mukhamad Sholikhin Tofa",4000,Passed,"2022-07-31 09:39:57","1. Select Job title
+2. Press search button
+","1. 
+2. 
+","1. 
+2. 
+","1. Passed
+2. Passed
+",,Medium,Normal,"To be automated",Functional,,"1. 
+2. ",
+9,"Search DIrectory","Search Directory",19,"Mukhamad Sholikhin Tofa",3000,Passed,"2022-07-31 09:40:01","1. Input name
+","1. Orange Test
+","1. 
+","1. Passed
+",,Medium,Normal,"Not automated",Functional,,"1. ",
+10,"Update status","Update status",20,"Mukhamad Sholikhin Tofa",3000,Passed,"2022-07-31 09:40:05","1. Input text on ""What's on your mind?""
+","1. Lorem ipsum dolor sit amet
+","1. 
+","1. Passed
+",,Medium,Normal,"Not automated",Functional,,"1. ",
