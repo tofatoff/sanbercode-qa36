@@ -10,7 +10,7 @@ from selenium.webdriver.support.select import Select
 from Login.login import TestLogin
 
 
-class TestTime(unittest.TestCase):
+class TestRecruitment(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
@@ -40,7 +40,7 @@ class TestTime(unittest.TestCase):
         driver.find_element(By.ID,"btnSrch").click()
 
         time.sleep(3)
-        result_name = driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody/tr/td[3]").text
+        result_name = driver.find_element(By.XPATH,"/html/body/div[1]/div[3]/div[2]/div/form/div[4]/table/tbody/tr/td[3]/a").text
 
         self.assertIn(name,result_name)
 
