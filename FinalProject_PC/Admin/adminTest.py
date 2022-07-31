@@ -18,18 +18,17 @@ class TestAdmin(unittest.TestCase):
         TestLogin.test_a_successLogin_clickButton(self)
         # steps
         driver = self.driver
-        driver.get("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers")
+        driver.get("https://opensource-demo.orangehrmlive.com/index.php/pim/viewEmployeeList")
         
         time.sleep(3)
         
-        expected_username = "Cecil.Bonaparte"
         expected_employeeName = "Cecil Bonaparte"
-        
-        select_userRole = Select(driver.find_element(By.ID,"searchSystemUser_userType"))
-        select_status = Select(driver.find_element(By.ID,"searchSystemUser_status"))
-        driver.find_element(By.ID,"searchSystemUser_userName").send_keys(expected_username)
-        select_userRole.select_by_visible_text("All")
-        driver.find_element(By.ID,"searchSystemUser_employeeName_empName").send_keys(expected_employeeName)
+        expected_supervisorName = "Fiona Grace"
+        expected_id = "0204"
+
+        driver.find_element(By.ID,"empsearch_employee_name_empName").send_keys(expected_employeeName)
+        driver.find_element(By.ID, "empsearch_id").send_keys(expected_id)
+        select_status = Select(driver.find_element(By.ID,"empsearch_employee_status"))
         select_status.select_by_visible_text("All")
         driver.find_element(By.ID,"searchBtn").click()
         time.sleep(5)

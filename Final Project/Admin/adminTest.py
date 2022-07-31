@@ -7,6 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.select import Select
+from Login import TestLogin
 
 class TestAdmin(unittest.TestCase):
     
@@ -15,6 +16,7 @@ class TestAdmin(unittest.TestCase):
         
     def test_searchUser(self): 
         # steps
+        TestLogin.test_a_successLogin_clickButton(self)
         driver = self.driver
         driver.get("https://opensource-demo.orangehrmlive.com/index.php/admin/viewSystemUsers")
         
